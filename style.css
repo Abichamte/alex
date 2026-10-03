@@ -1,0 +1,77 @@
+body{
+    background-image: url(../../../1640676004_1-abrakadabra-fun-p-zadnii-fon-konokha-1.jpg);
+    align-items: center;
+    text-align: center;
+}
+
+#gamezone{
+    border: 1px solid black;
+    background-image: url(1641355590_9-abrakadabra-fun-p-naruto-oboi-dlya-kompyutera-11.png);
+    background-size: cover;
+    height: 350px;
+    width: 650px;
+    position: absolute;
+    left: 33%;
+    top: 45%;
+    border-radius: 30px;
+
+}
+
+
+
+.character{
+    background-color: orange;
+    height: 120px;
+    width: 120px;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    display: none;
+    display: block;
+    border-radius: 30px;
+
+    background-image: url(714479d6ec6ceb75.jpeg);
+    background-size: cover;
+    background-position: center;
+
+    display: none;
+}
+
+.character:hover{
+    scale: 1.1;  /*увеличивается размер*/
+}
+
+.naruto{
+    background-image: url(DZzaPRLIcrvgZfM6aA6TQ.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.hidden{
+    display: none;
+}
+
+.visible{
+    display: block;
+}
+
+.button1_0{
+    height: 70px;
+    width: 300px;
+    background-color: rgb(255, 174, 0);
+    font-size: xx-large;
+    position: absolute;
+    top: 35%;
+    left: 42%;
+    border-radius: 30px;
+}
+
+h1{
+    color: white;
+    position: absolute;
+    top: 13%;
+    left: 33%;
+    font-style: italic;
+    font-size: 80px ;
+}
